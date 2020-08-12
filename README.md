@@ -46,8 +46,8 @@
 - CONFIG_FILE: diy.config&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上面已经说清楚了）
 - DIY_OP_SH: diy-lede.sh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上面已经说清楚了）
 - SSH_ACTIONS: true&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（SSH远程连接服务，true开,false关）
-- UPLOAD_BIN_DIR: false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传BIN文件夹到github空,包含（固件+IPK）,跟上传固件二选一即可,true开,false关）
-- UPLOAD_FIRMWARE: true&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传固件到github空,跟上传BIN文件夹二选一即可,true开,false关）
+- UPLOAD_BIN_DIR: false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传BIN文件夹到github空间,包含（固件+IPK）,跟上传固件二选一即可,true开,false关）
+- UPLOAD_FIRMWARE: true&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传固件到github空间,跟上传BIN文件夹二选一即可,true开,false关）
 - UPLOAD_COWTRANSFER: false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传固件到奶牛网盘,true开,false关）
 - UPLOAD_WETRANSFER: false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（上传固件到WETRANSFER网盘,true开,false关）
 
@@ -67,6 +67,7 @@
 ![xm1](doc/111.png)
 
 
+#
 # 
 # SSH连接说明
 ![xm1](doc/01.png)
