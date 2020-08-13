@@ -20,9 +20,9 @@
 #
 - 支持ipv6：Extra packages ---> ipv6helper（选上），安装好固件后在-网络-DHCP/DNS-高级设置-把“禁止解析 IPv6 DNS 记录”√去掉
 #
-- 不要ipv6：Global build settings ---> Enable IPv6 support in packages (NEW)的*去掉就好了
+- 不要ipv6：Global build settings ---> Enable IPv6 support in packages (NEW)（不选），就好了
 #
-- 网络共享luci-app-samba默认是去不掉的，可以在：Extra packages ---> autosamba的*去掉，就可以把luci-app-samba的*去掉了
+- 网络共享luci-app-samba默认是去不掉的，在：Extra packages ---> autosamba（不选），就可以不选luci-app-samba
 #
 - 虽然说用github云编译不需要梯子都可以，不过如果你要用到SSH连接的话，没有梯子是相当痛苦的，下载固件慢，打开github网页也比较卡
 #
