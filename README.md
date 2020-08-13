@@ -29,7 +29,7 @@
 - 此编译脚本来自[P3TERX大神一键编译脚本](https://github.com/P3TERX/Actions-OpenWrt)，感谢P3TERX大神！！！
 # 
 - files大法：就是把安装好的固件设置好的文件提取出来，编译时候放进去，以后安装好固件就是你以前设置好的，就不需要再重复的设置那么麻烦了
-- 使用方法：用WinSCP连接你路由器，在etc/config里面把想要文件拖到你电脑上，在电脑上建立一个files\etc\config，把你拖出来的文件都放这里，然后传到github根目录就可以了，我只尝试etc/config这个文件夹里面有效的，其他文件没试过，你们可以多做尝试
+- 使用方法：用[WinSCP](https://winscp.net/eng/download.php)(文件协议F选择SCP)连接你路由器，在etc/config里面把想要文件拖到你电脑上，在电脑上建立一个files\etc\config，把你拖出来的文件都放这里，然后传到github根目录就可以了，我只尝试etc/config这个文件夹里面有效的，其他文件没试过，你们可以多做尝试
 #
 #
 # 一键编译脚本根目录文件说明
