@@ -12,17 +12,17 @@
 #
 - 进入定制界面后各种插件所对应的中文名字不懂的可以到这里《[插件名字中文对照说明](https://www.right.com.cn/forum/thread-3682029-1-1.html)》参考下，这个是恩山大神xtwz整理的，更新比较老，有个别没有的，参考看吧
 #
-- 编译完成后，点击 Actions 就能看到你编译完成的固件，点击一下固件名字就下载到你电脑了
-#
-- 编译完成后,固件体积乘2再除1024就等于在github上的显示。比如说你选择编译的固件安装格式比较多，编译后为800M，800*2/1024=1.5G
-#
-- 安装固件时出现“Please press Enter to activate this console”就表示安装好了，不会跑码的，稍等1分钟就可以进入网页了
-#
 - 支持ipv6：Extra packages ---> ipv6helper（选上），安装好固件后在-网络-DHCP/DNS-高级设置-把“禁止解析 IPv6 DNS 记录”√去掉
 #
 - 不要ipv6：Global build settings ---> Enable IPv6 support in packages (NEW)（不选），就好了
 #
 - 网络共享luci-app-samba默认是去不掉的，在：Extra packages ---> autosamba（不选），就可以不选luci-app-samba
+#
+- 编译完成后，点击 Actions 就能看到你编译完成的固件，点击一下固件名字就下载到你电脑了
+#
+- 编译完成后,固件体积乘2再除1024就等于在github上的显示。比如说你选择编译的固件安装格式比较多，编译后为800M，800*2/1024=1.5G
+#
+- 安装固件时出现“Please press Enter to activate this console”就表示安装好了，不会跑码的，稍等1分钟就可以进入网页了
 #
 - 虽然说用github云编译不需要梯子都可以，不过如果你要用到SSH连接的话，没有梯子是相当痛苦的，下载固件慢，打开github网页也比较卡
 #
