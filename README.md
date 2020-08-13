@@ -18,6 +18,12 @@
 #
 - 安装固件时出现“Please press Enter to activate this console”就表示安装好了，不会跑码的，稍等1分钟就可以进入网页了
 #
+- 支持ipv6：Extra packages ---> ipv6helper（选上），安装好固件后在-网络-DHCP/DNS-高级设置-把“禁止解析 IPv6 DNS 记录”√去掉
+#
+- 不要ipv6：Global build settings ---> Enable IPv6 support in packages (NEW)的*去掉就好了
+#
+- 网络共享luci-app-samba默认是去不掉的，可以在Extra packages ---> 把autosamba前面的*去掉，就可以把luci-app-samba的*去掉了
+#
 - 虽然说用github云编译不需要梯子都可以，不过如果你要用到SSH连接的话，没有梯子是相当痛苦的，下载固件慢，打开github网页也比较卡
 #
 - 此编译脚本来自[P3TERX大神一键编译脚本](https://github.com/P3TERX/Actions-OpenWrt)，感谢P3TERX大神！！！
