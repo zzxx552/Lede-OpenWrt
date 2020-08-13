@@ -22,7 +22,7 @@
 #
 - 不要ipv6：Global build settings ---> Enable IPv6 support in packages (NEW)的*去掉就好了
 #
-- 网络共享luci-app-samba默认是去不掉的，可以在Extra packages ---> 把autosamba前面的*去掉，就可以把luci-app-samba的*去掉了
+- 网络共享luci-app-samba默认是去不掉的，可以在Extra packages ---> autosamba的*去掉，就可以把luci-app-samba的*去掉了
 #
 - 虽然说用github云编译不需要梯子都可以，不过如果你要用到SSH连接的话，没有梯子是相当痛苦的，下载固件慢，打开github网页也比较卡
 #
