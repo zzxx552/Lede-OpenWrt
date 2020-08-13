@@ -12,7 +12,7 @@
 #
 - 进入定制界面后各种插件所对应的中文名字不懂的可以到这里《[插件名字中文对照说明](https://www.right.com.cn/forum/thread-3682029-1-1.html)》参考下，这个是恩山大神xtwz整理的，更新比较老，有个别没有的，参考看吧
 #
-- 支持ipv6：Extra packages ---> ipv6helper（选上），安装好固件后在-网络-DHCP/DNS-高级设置-把“禁止解析 IPv6 DNS 记录”√去掉
+- 支持ipv6：Extra packages ---> ipv6helper（选上），安装好固件后在-网络-DHCP/DNS里的高级设置-把“禁止解析 IPv6 DNS 记录”的“√”去掉
 #
 - 不要ipv6：Global build settings ---> Enable IPv6 support in packages (NEW)（不选），就好了
 #
