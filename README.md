@@ -25,11 +25,13 @@
 - 安装固件时出现“Please press Enter to activate this console”就表示安装好了，不会跑码的，稍等1分钟就可以进入网页了
 #
 - 虽然说用github云编译不需要梯子都可以，不过如果你要用到SSH连接的话，没有梯子是相当痛苦的，下载固件慢，打开github网页也比较卡
-#
-- 此编译脚本来自[P3TERX大神一键编译脚本](https://github.com/P3TERX/Actions-OpenWrt)，感谢P3TERX大神！！！
 # 
 - files大法：就是把安装好的固件设置好的文件提取出来，编译时候放进去，以后安装好固件就是你以前设置好的，就不需要再重复的设置那么麻烦了
 - 使用方法：用[WinSCP](https://winscp.net/eng/download.php)(文件协议F选择SCP)连接你路由器，在etc/config里面把想要文件拖到你电脑上，在电脑上建立一个files\etc\config，把你拖出来的文件都放这里，然后把files文件夹传到github根目录就可以了，我只尝试etc/config这个文件夹里面有效的，其他文件没试过，你们可以多做尝试
+#
+- 编译成功跟失败都邮件通知--右上角头像-->Settings-->Notifications的差不多最下面找到《Send notifications for failed workflows only》把前面的勾去掉就好了
+#
+- 此编译脚本来自[P3TERX大神一键编译脚本](https://github.com/P3TERX/Actions-OpenWrt)，感谢P3TERX大神！！！
 #
 #
 # 一键编译脚本根目录文件说明
