@@ -2,7 +2,7 @@
 #
 - 1、`注册及登录github账号`《[注册链接](https://github.com)》
 #
-- 2、`拉取我的仓库到你的仓库`《[拉取仓库教程](https://github.com/281677160/shuoming/trunk/lqck.md)》
+- 2、`拉取我的仓库到你的仓库`《[拉取仓库教程](https://github.com/281677160/shuoming/blob/trunk/lqck.md)》
 #
 - 3、`按☆Star启动编译`《[启动教程](https://github.com/281677160/shuoming/blob/master/%E5%90%AF%E5%8A%A8%E8%AF%B4%E6%98%8E.md)》
 #
