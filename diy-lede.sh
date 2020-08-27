@@ -5,16 +5,12 @@
 # 除了第一行的#!/bin/bash不要动，其他的设置，前面带#表示不起作用，不带的表示起作用了（根据你自己需要打开或者关闭）
 #
 
-# 修改 banne 文件（不要修改此行代码,怕弄的diy-lede.sh文件全失效,不需要的话前面加#，或者全行代码删除了）
-rm -rf ./package/base-files/files/etc/banne && cd .. && cp -f ./banner openwrt/package/base-files/files/etc/ && cd openwrt
+# 修改openwrt登陆地址,把下面的192.168.2.2修改成你想要的就可以了
+sed -i 's/192.168.1.1/192.168.2.2/g' ./package/base-files/files/bin/config_generate
 
 
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能纯数字或者使用中文）
 sed -i 's/OpenWrt/OpenWrt-123/g' ./package/base-files/files/bin/config_generate
-
-
-# 修改openwrt登陆地址,把下面的192.168.2.2修改成你想要的就可以了
-sed -i 's/192.168.1.1/192.168.2.2/g' ./package/base-files/files/bin/config_generate
 
 
 # 设置密码为空（安装固件时无需密码登陆，然后自己修改想要的密码）
@@ -23,6 +19,10 @@ sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' ./package/lean/default-settings/files/z
 
 # 使用源码自带ShadowSocksR Plus+出国软件
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
+
+# 修改 banne 文件（不要修改此行代码,怕弄的diy-lede.sh文件全失效,不需要的话前面加#，或者全行代码删除了）
+rm -rf ./package/base-files/files/etc/banne && cd .. && cp -f ./banner openwrt/package/base-files/files/etc/ && cd openwrt
 
 
 #内核版本是会随着源码更新而改变的，在coolsnowwolf/lede的源码查看最好，以X86机型为例，源码的target/linux/x86文件夹可以看到有几个内核版本，x86文件夹里Makefile可以查看源码正在使用内核版本
