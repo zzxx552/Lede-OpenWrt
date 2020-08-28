@@ -80,18 +80,19 @@ jobs:
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
-    - name: 加载diy-lede.sh跟feeds.conf.default设置
+    - name: 加载源跟自定义插件
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_OP_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_OP_SH
 
-    - name: 下载diy-lede.sh跟feeds.conf.default自定义软件
-      run: cd openwrt && ./scripts/feeds update -a
-
-    - name: 安装自定义软件
-      run: cd openwrt && ./scripts/feeds install -a
+    - name: 下载源跟安装插件
+      run: |
+        cd openwrt
+        ./scripts/feeds clean
+        ./scripts/feeds update -a
+        ./scripts/feeds install -a
 
     - name: 加载diy.config设置
       run: |
