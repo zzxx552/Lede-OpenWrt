@@ -3,7 +3,7 @@
 - 以下的说明教程都是在我另外的仓库的，查看说明时候就跳转到另外仓库了，浏览器回退就会回来，别拉取到我说明的仓库，注意了！
 #
 #
-- 2020/8/31，增加可以单独提取.config配置文件，可以选择开跟关《[查看开关](https://github.com/danshui-git/shuoming/blob/master/yml%E4%B8%BB%E6%96%87%E4%BB%B6.md)》，方便个人需要，修复上次不小心弄的奶牛网盘网址错误问题，修复不打开上传固件到github空间就不能单独上传到网盘的问题
+- 2020/8/31，增加可以单独提取.config配置文件，可以选择开跟关《[查看开关说明](https://github.com/danshui-git/shuoming/blob/master/yml%E4%B8%BB%E6%96%87%E4%BB%B6.md)》，方便个人需要，修复上次不小心弄的奶牛网盘网址错误问题，修复不打开上传固件到github空间就不能单独上传到网盘的问题
 #
 #
 - 1、`注册及登录github账号`《[注册链接](https://github.com)》
