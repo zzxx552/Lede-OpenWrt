@@ -131,7 +131,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
       with:
-        name: CeShi_bin_${{ env.DEVICE_NAME }}_${{ env.FILE_DATE }}
+        name: OpenWrt_bin_${{ env.DEVICE_NAME }}_${{ env.FILE_DATE }}
         path: openwrt/bin
 
     - name: 提取config.buildinfo配置文件
