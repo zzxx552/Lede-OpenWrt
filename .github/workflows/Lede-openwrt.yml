@@ -98,7 +98,7 @@ jobs:
       run: |
         [ -e files ] && mv files openwrt/files
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
-        curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/dev-19.07/net/https-dns-proxy/files/https-dns-proxy.init > openwrt/feeds/packages/net/https-dns-proxy/files/https-dns-proxy.init
+    #    curl -fsSL  https://raw.githubusercontent.com/Lienol/openwrt-packages/dev-19.07/net/https-dns-proxy/files/https-dns-proxy.init > openwrt/feeds/packages/net/https-dns-proxy/files/https-dns-proxy.init
     
     - name: SSH远程连接服务器配置固件
       uses: P3TERX/debugger-action@main
