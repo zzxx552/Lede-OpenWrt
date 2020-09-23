@@ -149,7 +149,7 @@ jobs:
         echo "::set-output name=status::success"
         
     - name: 上传.config配置文件在github空间    
-      if: steps.config.outputs.status == 'success' && env.UPLOAD_CONFIG == 'true'
+      if: steps.organizer.outputs.status == 'success' && env.UPLOAD_CONFIG == 'true'
       uses: actions/upload-artifact@main
       with:
         name: config.buildinfo_${{ env.FILE_DATE }}
