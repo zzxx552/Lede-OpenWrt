@@ -15,7 +15,7 @@ on:
       name:
         description: 'Person to greet'
         required: true
-        default: 'build-openwrt'
+        default: 'Project-openwrt'
 
 
 #编辑任意指定文件触发开始编译
@@ -32,7 +32,7 @@ on:
 
 
 #点☆Star触发开始编译
-  watch:
+#  watch:
 #    types: started
 
 
