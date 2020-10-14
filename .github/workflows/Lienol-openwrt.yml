@@ -15,7 +15,7 @@ on:
       name:
         description: 'Person to greet'
         required: true
-        default: 'build-openwrt'
+        default: 'Lienol-openwrt'
 
 
 #编辑任意指定文件触发开始编译
