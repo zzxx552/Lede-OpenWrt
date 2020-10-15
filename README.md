@@ -2,7 +2,10 @@
 #
 - 以下的说明教程都是在我另外的仓库的，查看说明时候就跳转到另外仓库了，浏览器回退就会回来，别拉取到我说明的仓库，注意了！
 #
-#
+- Lede源码地址：https://github.com/coolsnowwolf/lede.git
+- Lienol源码地址：https://github.com/Lienol/openwrt.git
+- Project源码地址：https://github.com/project-openwrt/openwrt.git
+- 根目录的Lede、Lienol、Project三个文件夹就代表一个源码
 #
 - 如果你们谁有兴趣的话可以建个群来的，我把群号放这里，有群比较容易沟通，不懂的问都比较有地方问，大家在编译中遇到的问题也比较容易解决
 #
